@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka|Inconsolata&display=swap');
+
+
+div.card-body{
+	font-family: 'Chilanka', cursive;
+}
+
+div.vc{
+	font-family: 'Inconsolata', monospace;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.vcd{
+	font-family: 'Inconsolata', monospace;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.card-header{
+	font-family: 'Inconsolata', monospace;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+i.fa{
+	margin-left: 0.5em;
+}
+
+@media (min-width: 992px){
+	i.fa{
+		transition: all 0.5s;
+	}
+
+	button:hover i.fa{
+		margin-left: 1.5em;
+		transform: rotate(90deg);
+		transition: all 0.5s;
+	}
+}
+
+body {
+		background-image: url("../img/bg.jpg");
+		background-repeat: no-repeat;
+    background-size:cover;
+		background-attachment: fixed;
+		padding-top: 10px;
+		padding-bottom: 10px;
+}
+
+label{
+		font-family: 'Inconsolata', monospace;
+}
+div.welcome{
+	font-family: 'Chilanka', monospace;
+	font-size: 33px;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.projlabel{
+	font-family: 'Chilanka', cursive;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+div.butt{
+	font-family: 'Inconsolata', monospace;
+	font-size: 11px;
+	text-align: center;
+}
+
+#navelem{
+	font-family: 'Inconsolata', monospace;
+	font-size: 18px;
+	text-align: center;
+}
+
+#search{
+font-family: 'Chilanka', cursive;
+font-size: 15px;
+}
+
+.card{
+	border-color: black;
+}
